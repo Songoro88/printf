@@ -1,8 +1,9 @@
+
 #include "main.h"
 
 /************************* PRINT UNSIGNED NUM *************************/
 /**
- * print_unsigned - prints an unsigned num
+ * print_unsigned - an unsigned number printed
  * @types: Number  of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates number active flags
@@ -37,7 +38,7 @@ int print_unsigned(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUM IN OCTAL  ****************/
 /**
- * print_octal - Prints an unsigned number in octal notation
+ * print_octal - an unsigned number in octal notation printed
  * @types: Number of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates number of active flags
@@ -79,8 +80,8 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUM IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
- * @types: Number of arguments
+ * print_hexadecimal - an unsigned number in hexadecimal notation printed
+ * @types: list of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -97,8 +98,8 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUM IN-UPPER HEXADECIMAL **************/
 /**
- * print_hexa_upper - Prints an unsigned num in upper hexadecimal notation
- * @types: Number of arguments
+ * print_hexa_upper - an unsigned num in upper hexadecimal notation printed
+ * @types: List of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates Number of active flags
  * @width: get width
@@ -115,8 +116,8 @@ int print_hexa_upper(va_list types, char buffer[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_hexa - Prints a hexadecimal number in lower or upper
- * @types: Number  of arguments
+ * print_hexa - a hexadecimal number in lower or upper printed
+ * @types: List  of arguments
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
  * @flags:  Calculates Number of active flags

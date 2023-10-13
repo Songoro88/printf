@@ -3,8 +3,8 @@
 /************************* PRINT CHARACTER *************************/
 
 /**
- * print_character - Prints a character
- * @types: Number  of arguments
+ * print_character - Char Printed
+ * @types: List  of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates number of active flags
  * @width: Width
@@ -21,8 +21,8 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
- * Print_string - Prints a string
- * @types: Number of arguments
+ * Print_string - a string is printed
+ * @types: List of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates number of active flags
  * @width: get width.
@@ -76,8 +76,8 @@ int print_string(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints a percent(%) sign
- * @types: Number of arguments
+ * print_percent - a percent(%) sign is printed
+ * @types: List of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates number of active flags
  * @width: get width.
@@ -143,8 +143,8 @@ int print_int(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints an unsigned number
- * @types: Number of arguments
+ * print_binary - an unsigned number printed
+ * @types: List of arguments
  * @buffer: Buffer Array to handle print
  * @flags:  Calculates number of active flags
  * @width: get width.
