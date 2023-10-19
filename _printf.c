@@ -1,12 +1,11 @@
-i
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Function printf 
+ * _printf - Printf function
  * @format: format.
- * Return: printed characters.
+ * Return: Printed chars.
  */
 int _printf(const char *format, ...)
 {
@@ -35,7 +34,7 @@ int _printf(const char *format, ...)
 			print_buffer(buffer, &buff_ind);
 			flags = get_flags(format, &i);
 			width = get_width(format, &i, list);
-			precision = get_precision(format, &j, list);
+			precision = get_precision(format, &i, list);
 			size = get_size(format, &i);
 			++i;
 			printed = handle_print(format, &i, list, buffer,
@@ -54,9 +53,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - The Contents of the buffer if it exist is printed
- * @buffer: array of characters
- * @buff_ind: Index at which to add next character, represents the length.
+ * print_buffer - Prints the contents of the buffer if it exist
+ * @buffer: Array of chars
+ * @buff_ind: Index at which to add next char, represents the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
